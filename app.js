@@ -14,6 +14,7 @@ srchUser.addEventListener('keyup', (e) => {
                     ui.showAlert('User not found', 'alert alert-danger');
                 } else {
                     ui.showProfile(data.profile);
+                    ui.showRepo(data.repo);
                 }
             })
     } else {
